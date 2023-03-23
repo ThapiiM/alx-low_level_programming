@@ -1,17 +1,14 @@
-#include<stdio.h>
+#include < stdio.h >
 /**
- * main - Entry point
- *
- * Return: ALways 0 (Success)
+ * main - A program that prints the size of various computer types
+ * Return: always  0 (success)
  */
 int main(void)
 {
-	int a;
-	long int b;
-	long long int c;
-	char d;
-	float f;
-
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+	printf("Size of a char: %lu byte(s)\n", sizeof(char));
+	printf("Size of an int: %lu byte(s)\n", sizeof(int));
+	printf("size of a long int: %lu byte(s)\n", sizeof(long int));
+	printf("size of a long long int: %lu byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %lu byte(s)", sizeof(float));
 	return (0);
 }
