@@ -1,5 +1,6 @@
 Readme for C - More pointers, arrays and strings
 
+File: 0-strcat.c | Function concatenates two strings.
 File: 1-strncat.c | Function concatenates two strings.
 File: 2-strncpy.c | A function that copies a string.
 File: 3-strcmp.c | A function that compares two strings.
