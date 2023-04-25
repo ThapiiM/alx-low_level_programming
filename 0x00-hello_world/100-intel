@@ -1,6 +1,0 @@
-#!/bin/bash
-<<<<<<< HEAD
-gcc -S -masm=intel $CFILE
-=======
-gcc -S masm=intel $CFILE
->>>>>>> 37e45a4acb2ec00b2a1cf3f033760f84dd3948b4
